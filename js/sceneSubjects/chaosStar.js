@@ -10,8 +10,6 @@ import fragmentShader from '../../shaders/star-fragment.glsl';
 
 export default class ChaosStar {
 	constructor(scene) {
-		console.log(vertexShader);
-
 		// Public props -----------------------------
 
 		this.coordsNeedUpdate = true;
